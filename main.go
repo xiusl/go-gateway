@@ -117,7 +117,7 @@ func main() {
 func createNacosClient() (naming_client.INamingClient, error) {
 	sc := []constant.ServerConfig{
 		{
-			IpAddr: "localhost",
+			IpAddr: "192.168.0.34",
 			Port:   8848,
 		},
 	}
